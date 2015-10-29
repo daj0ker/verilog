@@ -14,27 +14,27 @@ module elevator_t;
 			reset=1'b1;
 			clk=1'b0;
 			#4
-			n=1'b1;
+			in=1'b1;
 			reset=1'b0;
 			#4
-			n=1'b0;
+			in=1'b0;
 
 			
 			#4
-			n=1'b1;
+			in=1'b1;
 		
 			#4
-			n=1'b0;
+			in=1'b0;
 			#4
-			n=1'b1;
+			in=1'b1;
 		
 			#4
-			n=1'b0;
+			in=1'b0;
 			#4
-			n=1'b1;
+			in=1'b1;
 		
 			#4
-			n=1'b0;
+			in=1'b0;
 			#8 $finish;
 
 			
@@ -42,6 +42,6 @@ module elevator_t;
 	always
 	#2 clk=~clk;
 	initial
-	$monitor($time,"input=%d red=%d green=%d",n,r,g);
+	$monitor($time,"input=%d red=%d green=%d",in,r,g);
 endmodule
 
