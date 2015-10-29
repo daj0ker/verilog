@@ -1,3 +1,3 @@
 # Verilog 
 
-Simple circuits implemented as a part of the digitl circuits lab.
+Simple circuits implemented in verilog as a part of the digital circuits lab.
