@@ -1,0 +1,158 @@
+$date
+	Thu Oct 29 15:00:36 2015
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module elevator_t $end
+$var wire 1 ! g $end
+$var wire 1 " r $end
+$var reg 1 # clk $end
+$var reg 1 $ n $end
+$var reg 1 % reset $end
+$scope module fgf $end
+$var wire 1 & clk $end
+$var wire 1 ! g $end
+$var wire 1 ' n $end
+$var wire 1 ( q $end
+$var wire 1 " r $end
+$var wire 1 ) reset $end
+$scope module t1 $end
+$var wire 1 & clk $end
+$var wire 1 ' d $end
+$var wire 1 ) reset $end
+$var reg 1 * q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x*
+1)
+x(
+x'
+0&
+1%
+x$
+0#
+x"
+x!
+$end
+#2
+1"
+0*
+0(
+0!
+1#
+1&
+#4
+0#
+0&
+0%
+0)
+1$
+1'
+#6
+0"
+1*
+1(
+1!
+1#
+1&
+#8
+0#
+0&
+0$
+0'
+#10
+1"
+0*
+0(
+0!
+1#
+1&
+#12
+0#
+0&
+1$
+1'
+#14
+0"
+1*
+1(
+1!
+1#
+1&
+#16
+0#
+0&
+0$
+0'
+#18
+1"
+0*
+0(
+0!
+1#
+1&
+#20
+0#
+0&
+1$
+1'
+#22
+0"
+1*
+1(
+1!
+1#
+1&
+#24
+0#
+0&
+0$
+0'
+#26
+1"
+0*
+0(
+0!
+1#
+1&
+#28
+0#
+0&
+1$
+1'
+#30
+0"
+1*
+1(
+1!
+1#
+1&
+#32
+0#
+0&
+0$
+0'
+#34
+1"
+0*
+0(
+0!
+1#
+1&
+#36
+0#
+0&
+#38
+1#
+1&
+#40
+0#
+0&
