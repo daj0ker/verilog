@@ -1,9 +1,9 @@
 `include "elevator.v"
 module elevator_t;
-	reg n,clk,reset;
+	reg in,clk,reset;
 	wire r,g;
 
-	elevator fgf(n,r,g,clk,reset);
+	elevator inst(in,r,g,clk,reset);
 	initial
 
 
